@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReservationNode</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="ReservationStyle.css" />
+
+    <script
+      src="https://kit.fontawesome.com/0020352476.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <script src="Reservationfungsi.js"></script>
+    <div id="maincontent">
+      <div class="grid" id="image">
+        <div id="RoomName">LP-501</div>
+        <img src="../res/img/CompLab.png" alt="" />
+      </div>
+      <div class="grid" id="details">
+        <label for="date">Date :</label><span id="date"></span><br />
+        <label for="startTime">Start Time :</label><span id="startTime"></span
+        ><br />
+        <label for="endTime">End Time :</label><span id="endTime"></span><br />
+        <label for="status">Status :</label><span id="status"></span><br />
+      </div>
+      <div class="grid" id="cancelbutton">
+        <button id="cancel">Cancel</button>
+      </div>
+    </div>
+  </body>
+</html>

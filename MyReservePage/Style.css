@@ -1,0 +1,193 @@
+body {
+    background: gray;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+#menubar {
+    color: white;
+    width: 50px;
+    font-size: 30px;
+    align-self:center;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+.HyperlinkHome{
+    text-decoration: none;
+}
+
+.HyperlinkHome:visited{
+    color: black;
+}
+
+.MenuText{
+    padding-left: 5px;
+}
+
+#menubar:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+#Title {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-left: 25px;
+    font-family: 'Work Sans', sans-serif;
+    align-self: center;
+}
+
+#BoxTitle {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #263B71;
+    padding: 10px;
+    display: flex;
+    align-items: baseline;
+    box-shadow: -10px 0px 20px black;
+    z-index: 10;
+}
+
+#HomeIcon {
+    color: whitesmoke;
+    align-self: center;
+    position: fixed;
+    font-size: 20px;
+    right: 90px;
+    transition: color 0.3s ease;
+}
+
+#HomeIcon:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+#UserIcon {
+    color: white;
+    align-self: center;
+    position: fixed;
+    font-size: 20px;
+    right: 45px;
+    transition: color 0.3s ease;
+}
+
+#UserIcon:hover {
+    cursor: pointer;
+}
+
+#MenuBox {
+    background-color: whitesmoke;
+    height: 100%;
+    width:350px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 20px black;
+    display: none;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#MasterMenu {
+    margin-top: 25%;
+    text-align: center;
+}
+
+.TextMaster {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.TextMaster:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+#reserveList{
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: 4%;
+    left: 20%;
+    right: 20%;
+    background-color: rgb(198, 197, 197);
+    overflow: auto;
+}
+
+.maincontent {
+  height: auto;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 20% 45% 35%;
+  box-shadow: 0px 0px 10px black;
+  overflow: hidden;
+}
+
+.grid-image {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10%;
+    border: 1px solid black;
+}
+
+.RoomName {
+    background-color: green;
+    color: white;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sans-serif';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.RoomImage {
+    width: 100%;
+    height: 70%;
+}
+
+.grid-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10%;
+    border: 1px solid black;
+}
+
+.grid-cancel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    border: 1px solid black;
+}
+
+#cancel{ 
+    color: white;
+    background-color: red;
+    border:none;
+    width: 100%;
+    height: 20%;
+    font-family: 'Sans-serif';
+    font-weight: bold;
+    font-size: 20px;
+}
+#cancel:hover {
+    background-color: #720404;
+}
